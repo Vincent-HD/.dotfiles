@@ -20,6 +20,9 @@
     # helix.packages."${pkgs}".helix
   ];
 
+  # This enables foreign binaries to run on NixOS, making vscode remote server working
+  programs.nix-ld.enable = true;
+
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
