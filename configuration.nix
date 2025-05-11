@@ -17,6 +17,8 @@
     neovim
     wget
     vscode
+    nixd # Nix LSP server
+    nixfmt-rfc-style # Nix formatter
     # helix.packages."${pkgs}".helix
   ];
 
